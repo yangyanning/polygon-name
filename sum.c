@@ -36,7 +36,7 @@ int main(int argc, char* argv[]) {
         depth = atoi(argv[1]);
         t = atoi(argv[2]);
     }
-	printf("depth = %d, target = %d\n", depth, t);
+    printf("depth = %d, target = %d\n", depth, t);
     foo(depth, 1, 2 * depth, 0, t, &prev[0]);
     return 0;
 }
